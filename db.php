@@ -2,7 +2,7 @@
 $servername = "119.18.49.6";
 $username = "gncfjqmy_admin";
 $password = "Sugandh@123";
-$db = "gncfjqmy_apbiharpower";
+$db = "gncfjqmy_sashaktvihar";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
