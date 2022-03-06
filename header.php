@@ -6,7 +6,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><strong>Sashaktvihar</strong></a>
+                <a class="navbar-brand" href="index.php"><strong>Sashakt Vihar</strong></a>
             </div>
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">

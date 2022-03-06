@@ -77,7 +77,7 @@ require_once __DIR__ . '/googleanayltic/vendor/autoload.php';
                     $analytics = initializeAnalytics();
                     $profile = getFirstProfileId($analytics);
                     $results = gettodayResults($analytics, $profile);
-                    printResults($results);
+                    //printResults($results);
                     function initializeAnalytics()
                     {
                       // Creates and returns the Analytics Reporting service object.
@@ -190,7 +190,7 @@ require_once __DIR__ . '/googleanayltic/vendor/autoload.php';
                     $analytics = initializeweekAnalytics();
                     $profile = getweekFirstProfileId($analytics);
                     $results = getweekResults($analytics, $profile);
-                    printweekResults($results);
+                    //printweekResults($results);
                     function initializeweekAnalytics()
                     {
                       // Creates and returns the Analytics Reporting service object.
@@ -301,7 +301,7 @@ require_once __DIR__ . '/googleanayltic/vendor/autoload.php';
                     $analytics = initializemonthAnalytics();
                     $profile = getmonthFirstProfileId($analytics);
                     $results = getmonthResults($analytics, $profile);
-                    printmonthResults($results);
+                    //printmonthResults($results);
 
                     function initializemonthAnalytics()
                     {
@@ -415,7 +415,7 @@ require_once __DIR__ . '/googleanayltic/vendor/autoload.php';
                     $analytics = initializeyearAnalytics();
                     $profile = getyearFirstProfileId($analytics);
                     $results = getyearResults($analytics, $profile);
-                    printyearResults($results);
+                   // printyearResults($results);
 
                     function initializeyearAnalytics()
                     {
@@ -576,7 +576,7 @@ require_once __DIR__ . '/googleanayltic/vendor/autoload.php';
                   }
                   $ga_id = '205042620';
                   $rest = get_realtime_active_user($analytics, $ga_id);
-                  echo '<h1 style="font-size:50px;color:#067B22;"><b>' . $rest . '</b></h1><br>';
+                  //echo '<h1 style="font-size:50px;color:#067B22;"><b>' . $rest . '</b></h1><br>';
                   ?>
                   <div id="activeuser" class="text-center">
                   </div>
