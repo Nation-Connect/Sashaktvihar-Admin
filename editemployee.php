@@ -47,7 +47,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta content="" name="description" />
     <meta content="apbiharpower" name="apbiharpower" />
-    <title>Apbiharpower-Admin Panel</title>
+    <title>Sashaktvihar-Admin Panel</title>
     
     	<script src="ckeditor/ckeditor.js"></script>
 	<!-- Bootstrap Styles-->
