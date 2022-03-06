@@ -267,7 +267,7 @@
         </script>
         
         <script>
-            $(".notifyonclk").click(function (e) {
+            $(".notifyonclktender").click(function (e) {
                  $.ajax({
                 url: "notifyupdttenderreg.php",
                 data: {id : ""},
