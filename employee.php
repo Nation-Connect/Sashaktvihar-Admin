@@ -44,6 +44,7 @@ include 'db.php';
 
 <body>
     <div id="wrapper">
+    <?php include 'header.php'; ?>
         <div id="page-wrapper">
             <div class="header">
                 <h1 class="page-header">
