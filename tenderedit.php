@@ -13,9 +13,9 @@
         
         $title = $_POST["title"];
         $shortdesc = $_POST["shortdesc"];
-        
+        $terms = $_POST["terms"];
         mysqli_set_charset($conn,'utf8');
-        $sql = "UPDATE tender SET title = '$title',short_desc = '$shortdesc' WHERE id = $id";
+        $sql = "UPDATE tender SET title = '$title',short_desc = '$shortdesc',terms = '$terms' WHERE id = $id";
         
         
          if (mysqli_query($conn, $sql)) {
@@ -118,8 +118,9 @@
                                                             if ($result->num_rows > 0) {
                                                                 // output data of each row
                                                                 while($row = $result->fetch_assoc()) {
-                                                                     $title = $row["title"];
-                                                                     $shortdesc = $row["short_desc"];
+                                                                    $title = $row["title"];
+                                                                    $shortdesc = $row["short_desc"];
+                                                                    $terms = $row["terms"];
                                                                      
                                                                         }
                                                             } else {
@@ -138,7 +139,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <div class="card-title">
-                                        <div class="title">Edit Job Details</div>
+                                        <div class="title">Edit Tender Details</div>
                                     </div>
                                 </div>
                                 <form action="" method = "POST">
@@ -153,7 +154,15 @@
                                     <div>
                                     <textarea name="shortdesc" id="editor1" rows="10" cols="80"><?php echo $shortdesc; ?></textarea>
                                     </div><br>
-                                      
+                                    
+                                    <div class="sub-title">Terms and Conditions</div>
+                                    <div>
+                                        
+                                		
+                                                <textarea name="terms" id="editor2" id="" rows="40" cols="80"><?php echo $terms; ?></textarea>
+                                               
+                                                
+                                              
                                         
                                      
                                     <p><a target="_blank" href="englishtohindi.php"><button type="button" class="btn btn-info">Click Here</button></a> to convert English to Hindi</p><br><br><br>
