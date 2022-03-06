@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
     $id = $_GET["id"];
     $ImageSavefolder = "../sashaktvihar.com/img/gallery/";
     $sql = "INSERT INTO gallery(link) VALUES('" . $_FILES['uploadImage']['name'] . "')";
-    if (!file_exists("../img/gallery/" . $_FILES['uploadImage']['name'])) {
+    if (!file_exists("../sashaktvihar.com/img/gallery/" . $_FILES['uploadImage']['name'])) {
         move_uploaded_file($_FILES["uploadImage"]["tmp_name"], "$ImageSavefolder" . $_FILES["uploadImage"]["name"]);
         if (mysqli_query($conn, $sql)) {
             header("Location: gallery.php?status=success");
