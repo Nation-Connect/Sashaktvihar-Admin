@@ -57,9 +57,9 @@ $first_part = $components[1];
                     <li>
                         <a class="<?php if ($first_part=="notice.php") {echo "active-menu"; }?>" href="notice.php"><i class="fa fa-comment-o" aria-hidden="true"></i>Notice</a>
                     </li>
-                    <li>
-                        <a class="<?php if ($first_part=="support.php") {echo "active-menu"; }?>" href="support.php"><i class="fa fa-info-circle" aria-hidden="true"></i>Support</a>
-                    </li>
+                    <!-- <li>
+                        <a class="<?php //if ($first_part=="support.php") {echo "active-menu"; }?>" href="support.php"><i class="fa fa-info-circle" aria-hidden="true"></i>Support</a>
+                    </li> -->
                     <li>
                         <a href="#"><i class="fa fa-sitemap"></i> ONLINE APPLICATION <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
