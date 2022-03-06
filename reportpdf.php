@@ -41,7 +41,7 @@ $datefrom = $_POST['datefrom'];
 //$conn->close();
 $content = ''; 
 $content .= '<div class="regformhead">
-			<h2 align="center"><strong>ANJALI & POONAM POWER SERVICES PRIVATE LIMITED</strong></h2>
+			<h2 align="center"><strong>SASHAKT VIHAR CONSTRUCTION & SECURITY PRIVATE LIMITED</strong></h2>
 		    <h4 align="center">(Power Maintenance Service)</h4>
 		    <br><hr>
 		</div>
@@ -79,7 +79,7 @@ $mpdf=new Mpdf();
 $stylesheet = file_get_contents('assets/css/pdf.css'); // external css
 $mpdf->WriteHTML($stylesheet,1);
 $mpdf->WriteHTML($content,2);
-$mpdf->setFooter('ANJALI & POONAM POWER SERVICES PRIVATE LIMITED') ;
+$mpdf->setFooter('SASHAKT VIHAR CONSTRUCTION & SECURITY PRIVATE LIMITED') ;
 $mpdf->SetWatermarkImage('/assets/img/logopdf.jpg');
 $mpdf->showWatermarkImage = true;
 
