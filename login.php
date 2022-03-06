@@ -1,12 +1,9 @@
 <?php
-
     session_start();
     if(isset($_SESSION["admin_id"])){ 
     header("Location: index.php");
     } 
-
     include 'db.php';
-    
     if(isset($_POST['submit']))
     {
         $username = $_POST["username"];
