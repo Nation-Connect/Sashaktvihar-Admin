@@ -19,10 +19,10 @@
         
          if (mysqli_query($conn, $sql)) {
            
-                  header("Location: http://admin.apbiharpower.in/tender.php?status=success");
+                  header("Location: http://admin.sashaktvihar.in/tender.php?status=success");
              
          } else {
-              header("Location: http://admin.apbiharpower.in/tender.php?status=failed");
+              header("Location: http://admin.sashaktvihar.in/tender.php?status=failed");
              //echo mysqli_error($conn);
              
              
@@ -39,7 +39,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta content="" name="description" />
-    <meta content="apbiharpower" name="apbiharpower" />
+    <meta content="sashaktvihar" name="sashaktvihar" />
     <title>Sashaktvihar-Admin Panel</title>
     
     	<script src="ckeditor/ckeditor.js"></script>

@@ -55,7 +55,7 @@ if(isset($_POST['delete']))
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta content="" name="description" />
-    <meta content="apbiharpower" name="apbiharpower" />
+    <meta content="sashaktvihar" name="sashaktvihar" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Apbiharpower-Notice</title>
 	<!-- Bootstrap Styles-->

@@ -14,7 +14,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta content="" name="description" />
-    <meta content="apbiharpower" name="apbiharpower" />
+    <meta content="sashaktvihar" name="sashaktvihar" />
     <title>Sashaktvihar-Admin Panel</title>
     <!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -164,7 +164,7 @@
                                                                 // output data of each row
                                                                 while($row = $supportresult->fetch_assoc()) {
                                                                     echo '<tr class="gradeA">
-                                                                    <td><center><img src="https://apbiharpower.in/'.$row["image"].'" width="50" height="50" style="border-radius:5px;"></center></td>
+                                                                    <td><center><img src="https://sashaktvihar.in/'.$row["image"].'" width="50" height="50" style="border-radius:5px;"></center></td>
                                                                     <td>'.$row["name"].'</td><td>'.$row["dist"].'</td><td>'.substr_replace($row["address"], "...", 30).'</td><td>'.$row["contact_no"].'</td>
                                                                     <td>'.$row["calling_time"].'</td>
                                                                     <td><center><a href="editsupport.php?sid='.$row["id"].'"><button class="btn btn-info"><i class="fa fa-pencil" aria-hidden="true"></i> Edit </button></a>

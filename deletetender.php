@@ -10,10 +10,10 @@
         
          if (mysqli_query($conn, $sql)) {
            
-                  header("Location: http://admin.apbiharpower.in/tender.php?status=success&id=$id");
+                  header("Location: http://admin.sashaktvihar.in/tender.php?status=success&id=$id");
              
          } else {
-              header("Location: http://admin.apbiharpower.in/tender.php?status=failed&id=$id");
+              header("Location: http://admin.sashaktvihar.in/tender.php?status=failed&id=$id");
              //echo mysqli_error($conn);
              
              

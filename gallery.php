@@ -14,7 +14,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta content="" name="description" />
-    <meta content="apbiharpower" name="apbiharpower" />
+    <meta content="sashaktvihar" name="sashaktvihar" />
     <title>Apbiharpower-Gallery</title>
 	<!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -114,7 +114,7 @@
                                                                 while($row = $slideresult->fetch_assoc()) {
                                                                     
                                                                     echo '<div class="gallery-item">
-                                                                          <div><a href="https://apbiharpower.in/img/gallery/'.$row["link"].'"data-lightbox="photos"><img class="img-fluid galimg" src="https://apbiharpower.in/img/gallery/'.$row["link"].'" style="padding:5px;" alt="apbiharpower.in"/></a></div><div style="float:right;padding:5px 5px;">
+                                                                          <div><a href="https://sashaktvihar.in/img/gallery/'.$row["link"].'"data-lightbox="photos"><img class="img-fluid galimg" src="https://sashaktvihar.in/img/gallery/'.$row["link"].'" style="padding:5px;" alt="sashaktvihar.in"/></a></div><div style="float:right;padding:5px 5px;">
                                                                          <button class="btn btn-danger" data-href="delimg.php?id='.$row["id"].'" data-toggle="modal" data-target="#confirm-delete"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete </button><br></div></div>';
                                                                           
                                                                    

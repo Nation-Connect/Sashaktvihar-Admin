@@ -46,6 +46,9 @@ $first_part = $components[1];
                         <a class="<?php if ($first_part=="registration.php") {echo "active-menu"; }?>" href="registration.php" class="notifyonclk"><i class="fa fa-user-circle" aria-hidden="true"></i>Job Registration &nbsp;&nbsp;<span class="glyphicon not"><mark class="big swing"><span class="notifydata"></span></mark></span></a>
                     </li>
                     <li>
+                        <a class="<?php if ($first_part=="tenderregistration.php") {echo "active-menu"; }?>" href="tenderregistration.php" class="notifyonclk"><i class="fa fa-gavel" aria-hidden="true"></i>Tender Registration &nbsp;&nbsp;<span class="glyphicon not"><mark class="big swing"><span class="notifydata"></span></mark></span></a>
+                    </li>
+                    <li>
                         <a class="<?php if ($first_part=="gallery.php") {echo "active-menu"; }?>" href="gallery.php"><i class="fa fa-file-image-o" aria-hidden="true"></i>Gallery</a>
                     </li>
                     <li>

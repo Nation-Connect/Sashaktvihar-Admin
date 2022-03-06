@@ -40,11 +40,11 @@
         <div id="page-wrapper" >
 		  <div class="header"> 
                         <h1 class="page-header">
-                            Job Registration <small>Job Registration Details</small>
+                            Tender Registration <small>Tender Registration Details</small>
                         </h1>
 						<ol class="breadcrumb">
 					  <li><a href="index.php">Home</a></li>
-					  <li class="active">Job Registration</li>
+					  <li class="active">Tender Registration</li>
 					</ol> 
 									
 		</div>
@@ -58,7 +58,7 @@
 							<h3>
 							    <?php
 										                    
-                									    	$totalregistrationsql = "SELECT count(id) FROM registration";
+                									    	$totalregistrationsql = "SELECT count(id) FROM tenderregistration";
                                                             $totalregistrationresult = $conn->query($totalregistrationsql);
                                                             $row = mysqli_fetch_array($totalregistrationresult);
                                                             $total = $row[0];
@@ -83,7 +83,7 @@
 							<h3>
 							    <?php
 										                    
-                									    	$totalregistrationsql = "SELECT count(id) FROM registration WHERE YEARWEEK(date) = YEARWEEK(NOW())";
+                									    	$totalregistrationsql = "SELECT count(id) FROM tenderregistration WHERE YEARWEEK(date) = YEARWEEK(NOW())";
                                                             $totalregistrationresult = $conn->query($totalregistrationsql);
                                                             $row = mysqli_fetch_array($totalregistrationresult);
                                                             $total = $row[0];
@@ -108,7 +108,7 @@
 							<h3>
 								<?php
 										                    
-                									    	$totalregistrationsql = "SELECT count(id) FROM registration WHERE MONTH(date) = MONTH(NOW()) AND YEAR(date) = YEAR(NOW())";
+                									    	$totalregistrationsql = "SELECT count(id) FROM tenderregistration WHERE MONTH(date) = MONTH(NOW()) AND YEAR(date) = YEAR(NOW())";
                                                             $totalregistrationresult = $conn->query($totalregistrationsql);
                                                             $row = mysqli_fetch_array($totalregistrationresult);
                                                             $total = $row[0];
@@ -132,7 +132,7 @@
 							<h3>
 								<?php
 										                    
-                									    	$totalregistrationsql = "SELECT count(id) FROM registration WHERE YEAR(date) = YEAR(NOW())";
+                									    	$totalregistrationsql = "SELECT count(id) FROM tenderregistration WHERE YEAR(date) = YEAR(NOW())";
                                                             $totalregistrationresult = $conn->query($totalregistrationsql);
                                                             $row = mysqli_fetch_array($totalregistrationresult);
                                                             $total = $row[0];
@@ -171,15 +171,15 @@
                                     <tbody>
                                         <?php
 										                    mysqli_set_charset($conn,'utf8');
-                									    	$registrationsql = "SELECT * FROM registration ORDER BY id DESC";
+                									    	$registrationsql = "SELECT * FROM tenderregistration ORDER BY id DESC";
                                                             $registrationresult = $conn->query($registrationsql);
                                                             
                                                             if ($registrationresult->num_rows > 0) {
                                                                 // output data of each row
                                                                 while($row = $registrationresult->fetch_assoc()) {
                                                                     echo '<tr class="gradeA"><td>'.$row["registration_id"].'</td><td>'.$row["firstname"].' '.$row["lastname"].'</td><td>'.$row["date"].'</td>
-                                                                    <td class="text-center"><a target="_blank" href="pdf.php?id='.$row["registration_id"].'"><button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> View </button></a>
-                                                                    &nbsp;&nbsp;&nbsp;<a target="_blank" href="pdfdownload.php?id='.$row["registration_id"].'"><button class="btn btn-info"><i class="fa fa-download" aria-hidden="true"></i> Download </button></a></td>';
+                                                                    <td class="text-center"><a target="_blank" href="tenderpdf.php?id='.$row["registration_id"].'"><button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> View </button></a>
+                                                                    &nbsp;&nbsp;&nbsp;<a target="_blank" href="tenderpdfdownload.php?id='.$row["registration_id"].'"><button class="btn btn-info"><i class="fa fa-download" aria-hidden="true"></i> Download </button></a></td>';
                                                                 }
                                                             } else {
                                                                 //echo "<img src='img/nojob.png' style='display: block; width:30%; margin-left:auto; margin-right:auto;'>";
@@ -247,7 +247,7 @@
             setInterval(function(){    
                 $.ajax({
                     type : "POST",
-                    url : "notifynewjobreg.php",
+                    url : "notifynewtenderreg.php",
                     success : function(data){
                         
                         if (data > old_count) {
@@ -269,7 +269,7 @@
         <script>
             $(".notifyonclk").click(function (e) {
                  $.ajax({
-                url: "notifyupdtjobreg.php",
+                url: "notifyupdttenderreg.php",
                 data: {id : ""},
                 type: "POST",
                 success: function(data){
