@@ -13,7 +13,7 @@ if (!isset($_SERVER['HTTP_REFERER'])) {
 include 'db.php';
 
 $id = $_GET['id'];
-$regid = "SELECT * FROM registration where registration_id = '$id'";
+$regid = "SELECT * FROM tenderregistration where registration_id = '$id'";
 $result = $conn->query($regid);
 while ($row = $result->fetch_assoc()) {
 	$registration_id = $row["registration_id"];
