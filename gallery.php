@@ -114,7 +114,7 @@
                                                                 while($row = $slideresult->fetch_assoc()) {
                                                                     
                                                                     echo '<div class="gallery-item">
-                                                                          <div><a href="https://sashaktvihar.com/img/gallery/'.$row["link"].'"data-lightbox="photos"><img class="img-fluid galimg" src="https://sashaktvihar.in/img/gallery/'.$row["link"].'" style="padding:5px;" alt="sashaktvihar.in"/></a></div><div style="float:right;padding:5px 5px;">
+                                                                          <div><a href="https://sashaktvihar.com/img/gallery/'.$row["link"].'"data-lightbox="photos"><img class="img-fluid galimg" src="https://sashaktvihar.com/img/gallery/'.$row["link"].'" style="padding:5px;" alt="sashaktvihar.in"/></a></div><div style="float:right;padding:5px 5px;">
                                                                          <button class="btn btn-danger" data-href="delimg.php?id='.$row["id"].'" data-toggle="modal" data-target="#confirm-delete"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete </button><br></div></div>';
                                                                           
                                                                    
