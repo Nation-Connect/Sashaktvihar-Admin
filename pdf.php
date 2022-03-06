@@ -190,7 +190,7 @@ $mpdf = new Mpdf();
 $stylesheet = file_get_contents('assets/css/pdf.css'); // external css
 $mpdf->WriteHTML($stylesheet, 1);
 $mpdf->WriteHTML($html, 2);
-$mpdf->setFooter('www.apbiharpower.in');
+$mpdf->setFooter('www.sashaktvihar.com');
 $mpdf->SetWatermarkImage('/assets/img/logopdf.jpg');
 $mpdf->showWatermarkImage = true;
 
