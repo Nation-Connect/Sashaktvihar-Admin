@@ -1,0 +1,131 @@
+[20-Sep-2021 06:08:26 UTC] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when headers already sent in /home4/apbihiue/public_html/admin.apbiharpower.in/index.php on line 3
+[20-Sep-2021 06:08:26 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home4/apbihiue/public_html/admin.apbiharpower.in/index.php on line 4
+[20-Sep-2021 06:08:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/apbihiue/public_html/admin.apbiharpower.in/index.php:1) in /home4/apbihiue/public_html/admin.apbiharpower.in/index.php on line 6
+[20-Sep-2021 06:08:27 UTC] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when headers already sent in /home4/apbihiue/public_html/admin.apbiharpower.in/index.php on line 3
+[20-Sep-2021 06:08:27 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home4/apbihiue/public_html/admin.apbiharpower.in/index.php on line 4
+[20-Sep-2021 06:08:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/apbihiue/public_html/admin.apbiharpower.in/index.php:1) in /home4/apbihiue/public_html/admin.apbiharpower.in/index.php on line 6
+[23-Sep-2021 09:28:59 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": {
+    "code": 503,
+    "message": "There was a temporary error. Please try again later.",
+    "errors": [
+      {
+        "message": "There was a temporary error. Please try again later.",
+        "domain": "global",
+        "reason": "backendError"
+      }
+    ]
+  }
+}
+ in /home4/apbihiue/public_html/admin.apbiharpower.in/googleanayltic/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home4/apbihiue/public_html/admin.apbiharpower.in/googleanayltic/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home4/apbihiue/public_html/admin.apbiharpower.in/googleanayltic/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home4/apbihiue/public_html/admin.apbiharpower.in/googleanayltic/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home4/apbihiue/public_html/admin in /home4/apbihiue/public_html/admin.apbiharpower.in/googleanayltic/src/Google/Http/REST.php on line 118
+[23-Sep-2021 09:29:59 UTC] PHP Warning:  unlink(../img/gallery/IMG-20201113-WA0009.jpg): No such file or directory in /home4/apbihiue/public_html/admin.apbiharpower.in/delimg.php on line 22
+[23-Sep-2021 09:30:12 UTC] PHP Warning:  unlink(../img/gallery/IMG-20201113-WA0011.jpg): No such file or directory in /home4/apbihiue/public_html/admin.apbiharpower.in/delimg.php on line 22
+[23-Sep-2021 09:30:31 UTC] PHP Warning:  unlink(../img/gallery/IMG20200815121440.jpg): No such file or directory in /home4/apbihiue/public_html/admin.apbiharpower.in/delimg.php on line 22
+[23-Sep-2021 09:31:12 UTC] PHP Warning:  unlink(../img/gallery/IMG-20200923-WA0018.jpg): No such file or directory in /home4/apbihiue/public_html/admin.apbiharpower.in/delimg.php on line 22
+[24-Oct-2021 09:09:12 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[24-Oct-2021 09:09:12 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[20-Dec-2021 21:47:24 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[20-Dec-2021 21:47:24 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[20-Dec-2021 21:47:24 America/Boise] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /home2/gncfjqmy/public_html/admin.apbiharpower.in/pdfdownload.php on line 195
+[21-Dec-2021 08:57:20 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[21-Dec-2021 08:57:20 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[21-Dec-2021 08:57:44 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[21-Dec-2021 08:57:44 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[21-Dec-2021 08:57:49 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[21-Dec-2021 08:57:49 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[08-Jan-2022 00:12:13 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:16 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:17 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:19 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:23 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:25 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:34 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:47 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:48 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:49 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:12:57 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:06 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:07 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:08 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:08 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:15 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:16 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:17 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:21 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:21 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:22 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:24 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:13:58 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:11 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:11 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:12 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:12 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:12 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:13 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:14 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:16 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:23 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:24 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:28 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:29 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:29 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:30 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:14:41 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:16:23 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:19:42 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[08-Jan-2022 00:19:42 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[08-Jan-2022 00:19:42 America/Boise] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /home2/gncfjqmy/public_html/admin.apbiharpower.in/pdfdownload.php on line 195
+[08-Jan-2022 00:21:23 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:24 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:25 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:25 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:29 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:29 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:30 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:34 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:37 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:38 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:38 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:21:40 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:22:29 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:22:33 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:22:36 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:22:37 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:22:39 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:22:40 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:22:49 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:22:51 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:23:04 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:23:04 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:23:14 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:23:14 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:23:38 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:23:39 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:24:45 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:24:49 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:24:53 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:25:03 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:25:08 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:25:17 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:25:21 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:25:21 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:25:36 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:26:30 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[08-Jan-2022 00:26:31 America/Boise] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/gncfjqmy/public_html/admin.apbiharpower.in/db.php on line 8
+[12-Jan-2022 09:04:33 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[12-Jan-2022 09:04:33 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[16-Jan-2022 08:56:56 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[16-Jan-2022 08:56:56 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[25-Jan-2022 23:03:37 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[25-Jan-2022 23:03:37 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[25-Jan-2022 23:03:37 America/Boise] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /home2/gncfjqmy/public_html/admin.apbiharpower.in/pdfdownload.php on line 195
+[25-Jan-2022 23:05:28 America/Boise] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /home2/gncfjqmy/public_html/admin.apbiharpower.in/consumerpdfd.php on line 156
+[28-Feb-2022 10:12:58 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[28-Feb-2022 10:12:58 America/Boise] PHP Warning:  A non-numeric value encountered in /home2/gncfjqmy/public_html/admin.apbiharpower.in/mpdf/mpdf.php on line 30648
+[28-Feb-2022 10:12:58 America/Boise] PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /home2/gncfjqmy/public_html/admin.apbiharpower.in/pdfdownload.php on line 195
+[28-Feb-2022 11:31:32 America/Boise] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/gncfjqmy/public_html/admin.apbiharpower.in/index.php on line 238
