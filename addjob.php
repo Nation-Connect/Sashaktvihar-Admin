@@ -97,11 +97,11 @@ if (isset($_POST['submit'])) {
                                 <div class="panel-body">
                                     <div class="sub-title">Title</div>
                                     <div>
-                                        <input type="text" name="title" class="form-control" placeholder="Job Title (ex: PPMO,DPMO etc)">
+                                        <input type="text" name="title" class="form-control" placeholder="Job Title ">
                                     </div><br>
                                     <div class="sub-title">Short Description</div>
                                     <div>
-                                        <textarea name="shortdesc" id="editor1" rows="10" cols="80" placeholder="Ex: Salary Structure"></textarea>
+                                        <textarea name="shortdesc" id="editor1" rows="10" cols="80" placeholder=""></textarea>
                                     </div><br>
                                     <div class="sub-title">Terms and Conditions</div>
                                     <div>
