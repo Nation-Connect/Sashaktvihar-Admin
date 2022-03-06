@@ -38,7 +38,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta content="" name="description" />
     <meta content="sashaktvihar" name="sashaktvihar" />
-    <title>Apbiharpower-Text Slider</title>
+    <title>Sashaktvihar-Text Slider</title>
 	<!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FontAwesome Styles-->
