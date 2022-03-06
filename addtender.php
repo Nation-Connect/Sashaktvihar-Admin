@@ -12,11 +12,10 @@
         
         $title = $_POST["title"];
         $shortdesc = $_POST["shortdesc"];
+        $terms = $_POST["terms"];
         mysqli_set_charset($conn,'utf8');
-        $sql = "INSERT INTO tender(title, short_desc, status) VALUES('$title','$shortdesc','active')";
-        
-        
-        
+        $sql = "INSERT INTO tender(title, short_desc, terms, status) VALUES('$title','$shortdesc','$terms','active')";
+
          if (mysqli_query($conn, $sql)) {
            
                   header("Location: http://admin.sashaktvihar.in/tender.php?status=success");
@@ -66,7 +65,7 @@
         <div id="page-wrapper">
 		  <div class="header"> 
                         <h1 class="page-header">
-                            Add Job<small>add new job</small>
+                            Add Tender<small>add new tender</small>
                         </h1>
 						<ol class="breadcrumb">
 					  <li><a href="index.php">Home</a></li>
@@ -119,30 +118,25 @@
                                         <div class="title">Add Tender</div>
                                     </div>
                                 </div>
-                                <form action="" method = "POST">
+                                <form action="" method="POST">
                                 <div class="panel-body">
-                                    
                                     <div class="sub-title">Title</div>
                                     <div>
-                                        <input type="text" name="title" class="form-control" placeholder="Tender Title (ex: PPMO,DPMO etc)">
+                                        <input type="text" name="title" class="form-control" placeholder="Job Title (ex: PPMO,DPMO etc)">
                                     </div><br>
-                                    
                                     <div class="sub-title">Short Description</div>
                                     <div>
-                                    <textarea name="shortdesc" id="editor1" rows="10" cols="80" placeholder="Ex: Salary Structure"></textarea>
+                                        <textarea name="shortdesc" id="editor1" rows="10" cols="80" placeholder="Ex: Salary Structure"></textarea>
                                     </div><br>
-                         
-                                               
-                                                
-                                              
-                                        
-                                     
-                                    <p><a target="_blank" href="englishtohindi.php"><button type="button" class="btn btn-info">Click Here</button></a> to convert English to Hindi</p><br><br><br>
-                                    <center>
-                                    <input type="Submit" class="btn btn-primary" name="submit" value="Submit"><br><br>
-                                    </center>
-                                </div>
-                                </form>
+                                    <div class="sub-title">Terms and Conditions</div>
+                                    <div>
+                                        <textarea name="terms" id="editor2" id="" rows="40" cols="80"></textarea>
+                                        <p><a target="_blank" href="englishtohindi.php"><button type="button" class="btn btn-info">Click Here</button></a> to convert English to Hindi</p><br><br><br>
+                                        <center>
+                                            <input type="Submit" class="btn btn-primary" name="submit" value="Submit"><br><br>
+                                        </center>
+                                    </div>
+                            </form>
                             </div>
                         </div>
                     </div>
